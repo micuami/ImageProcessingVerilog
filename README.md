@@ -27,11 +27,11 @@ Sharpness starts at state 10.
 
 Each pixel is processed according to its neighbors using the convolution matrix [-1, -1, -1; -1, 9, -1; -1, -1, -1]. To perform this operation, we assume that we have a 3x3 matrix for which we note the positions of the elements from 1 to 9 as follows:
 
-1 2 3
+1  2  3
 
-4 5 6
+4  5  6
 
-7 8 9
+7  8  9
 
 The pixel on position 5 is the one we are processing at a given time. For example, if the current pixel is at position (0,0) then its neighbors will be at positions 8, 9 and 6. The neighbors of the pixel are traversed in a trigonometric sense (3, 2, 1, 4, 7, 8, 9, 6 ).
 The operation is completed when all the pixels have been filtered (state 26). The pixels are processed sequentially, and the result is stored in the output.

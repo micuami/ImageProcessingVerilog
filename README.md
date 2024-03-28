@@ -35,3 +35,7 @@ Each pixel is processed according to its neighbors using the convolution matrix 
 
 The pixel on position 5 is the one we are processing at a given time. For example, if the current pixel is at position (0,0) then its neighbors will be at positions 8, 9 and 6. The neighbors of the pixel are traversed in a trigonometric sense (3, 2, 1, 4, 7, 8, 9, 6 ).
 The operation is completed when all the pixels have been filtered (state 26). The pixels are processed sequentially, and the result is stored in the output.
+
+Running:
+1. Copy Verilog files in the root of the folder
+2. Run start_test.bat; results will be in "results.txt" and execution log will be in "results.log"

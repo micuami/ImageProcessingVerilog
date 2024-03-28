@@ -1,0 +1,10 @@
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image1 - mirror
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image1 - grayscale
+-0.55: 1102 out of 4096 pixels ( 45.10% completed) test image1 - sharpen
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image2 - mirror
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image2 - grayscale
+-0.25: 2757 out of 4096 pixels ( 75.35% completed) test image2 - sharpen
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image3 - mirror
+ 0.00: 4096 out of 4096 pixels (100.00% completed) test image3 - grayscale
+-0.24: 2704 out of 4096 pixels ( 75.77% completed) test image3 - sharpen
+-0.53:  639 out of 4096 pixels ( 46.85% completed) test lena - all
